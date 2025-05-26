@@ -24,7 +24,6 @@ function saveToLocal(tipe, nominal, keterangan, penginput) {
 async function start(client) {
   console.log('Bot sudah siap!');
 
-  // Simpan session data ke console (copy paste ke Railway env var WA_SESSION_DATA)
   const sessionData = await client.getSessionData();
   console.log("=== SESSION DATA ===");
   console.log(JSON.stringify(sessionData));
